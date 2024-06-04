@@ -1,23 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			<li><a target = "_blank" href = "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">Audio 1</a></li>
-			<li><a target = "_blank" href = "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">Audio 2</a></li>
-			<li><a target = "_blank" href = "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">Audio 3</a></li>
-		</ul>
-	</nav>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<!-- Navbar -->
+<nav>
+    <ul>
+        <li><a href="#section1">Link 1</a></li>
+        <li><a href="#section2">Link 2</a></li>
+        <li><a href="#section3">Link 3</a></li>
+    </ul>
+</nav>
+
+<!-- Audio Section -->
+<section id="section1">
+    <h2>3 random audios</h2>
+    <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio controls>
+        <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
 
 </body>
-
 </html>
